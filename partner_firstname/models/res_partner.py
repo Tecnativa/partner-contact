@@ -18,6 +18,7 @@ class ResPartner(models.Model):
 
     firstname = fields.Char("First name", index=True)
     lastname = fields.Char("Last name", index=True)
+    lastname2 = fields.Char("Last name 2", index=True)
     name = fields.Char(
         compute="_compute_name",
         inverse="_inverse_name_after_cleaning_whitespace",
