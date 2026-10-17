@@ -18,7 +18,7 @@
                 <button
                     name="%(action_zip_tree)d"
                     class="oe_stat_button"
-                    icon="fa-globe"
+                    icon="public"
                     type="action"
                     context="{'default_country_id': id, 'search_default_country_id': id}"
                     string="Zips"
